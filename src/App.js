@@ -4,7 +4,7 @@ import HeaderIndex from './Components/HeaderIndex';
 
 function App() {
   return (
-    <HeaderIndex/>
+    <HeaderIndex logo="" option1="Home" option2="Option 2" option3="Option 3" option4="Option 4" option5="Option 5" />
   );
 }
 

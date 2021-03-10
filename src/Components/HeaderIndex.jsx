@@ -5,11 +5,12 @@ function HeaderIndex(props){
     return(
         <>
             <ul id="unordered">
-                <li id="item">{props.option1}</li>
-                <li id="item">{props.option2}</li>
-                <li id="item">{props.option3}</li>
-                <li id="item">{props.option4}</li>
-                <li id="item">{props.option5}</li>
+                <li id="logo">{props.image}</li>
+                <li class="item"><a href="#">{props.option1}</a></li>
+                <li class="item"><a href="#">{props.option2}</a></li>
+                <li class="item"><a href="#">{props.option3}</a></li>
+                <li class="item"><a href="#">{props.option4}</a></li>
+                <li class="item"><a href="#">{props.option5}</a></li>
             </ul>
         </>
     );

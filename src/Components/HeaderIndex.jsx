@@ -5,7 +5,7 @@ function HeaderIndex(props){
     return(
         <>
             <ul id="unordered">
-                <li id="logo">{props.image}</li>
+                <li id="logo"><img src={props.logo}/></li>
                 <li class="item"><a href="#">{props.option1}</a></li>
                 <li class="item"><a href="#">{props.option2}</a></li>
                 <li class="item"><a href="#">{props.option3}</a></li>

@@ -1,13 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ReactDOM from "react-dom";
 import HeaderIndex from './Components/HeaderIndex';
 import SectionIndex from './Components/SectionIndex';
+import pic from "../src/assets/portfolio.jpg";
+
 
 function App() {
   return (
     <>
     <HeaderIndex 
-    logo="/assets/test.png" 
+    logo = {pic}
     option1="Home" 
     option2="Option 2" 
     option3="Option 3" 

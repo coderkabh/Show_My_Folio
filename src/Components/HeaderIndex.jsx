@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../Component-Styles/HeaderIndex.css';
+import  "../component-Styles/Header.css";
 
 function HeaderIndex(props){
     return(

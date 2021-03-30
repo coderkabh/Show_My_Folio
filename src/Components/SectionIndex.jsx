@@ -5,10 +5,10 @@ import "../component-Styles/Section.css";
 function SectionIndex(){
     return(
         <div className="section">
-            {/* <img src={pic}></img> */}
-        </div>
+            {
 
-        // <div style={{backgroundImage:`url(${pic})`}}></div>
+            }
+        </div>
     );      
 }
 

@@ -9,10 +9,15 @@ function Home(){
         <HeaderIndex 
         logo = {pic}
         option1="Home" 
+        link1 = "/"
         option2="Option 2" 
+        link2 = "/"
         option3="Option 3" 
-        option4="Sign Up" 
-        option5="Log in"/>
+        link3 = "/"
+        option4="Sign Up"
+        link4 = "/" 
+        option5="Log in"
+        link5 = "/sign-in" />
         <SectionIndex/>
         </>
         

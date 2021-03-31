@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import HeaderIndex from './HeaderIndex';
 import pic from '../assets/portfolio.jpg';
 import SectionIndex from './SectionIndex';

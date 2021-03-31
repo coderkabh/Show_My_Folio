@@ -10,14 +10,14 @@ function Home(){
         logo = {pic}
         option1="Home" 
         link1 = "/"
-        option2="Option 2" 
-        link2 = "/"
-        option3="Option 3" 
-        link3 = "/"
+        option2="About Us" 
+        link2 = "/about-us"
+        option3="Log In" 
+        link3 = "/sign-in"
         option4="Sign Up"
-        link4 = "/" 
-        option5="Log in"
-        link5 = "/sign-in" />
+        link4 = "/sign-up" 
+        option5="Contact Us"
+        link5 = "/contact-us" />
         <SectionIndex/>
         </>
         

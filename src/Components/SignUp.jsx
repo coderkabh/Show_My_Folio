@@ -49,6 +49,7 @@ function SignUp() {
                         <input type="password" name="password" autoComplete="off" required />
                         <label> Password </label>
                     </div>
+                
 
                     <input type="submit" name="" value="Log In"/>
 

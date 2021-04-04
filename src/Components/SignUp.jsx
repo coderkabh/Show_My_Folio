@@ -15,7 +15,7 @@ function SignUp() {
         option2="About Us" 
         link2 = "/about-us"
         option3="Log In" 
-        link3 = "/log-in"
+        link3 = "/sign-in"
         option4="Sign Up"
         link4 = "#" 
         option5="Contact Us"
@@ -30,9 +30,20 @@ function SignUp() {
                 <Form method="" action="">
 
                     <div className="input-box">
-                        <input type="text" name="username" autoComplete="off" required />
-                        <label> Username </label>
+                        <input type="text" name="fname" autoComplete="off" required />
+                        <label> First Name </label>
                     </div>
+
+                    <div className="input-box">
+                        <input type="text" name="lname" autoComplete="off" required />
+                        <label> Last Name </label>
+                    </div>
+
+                    <div className="input-box">
+                        <input type="text" name="email" autoComplete="off" required />
+                        <label> Email </label>
+                    </div>
+
 
                     <div className="input-box">
                         <input type="password" name="password" autoComplete="off" required />

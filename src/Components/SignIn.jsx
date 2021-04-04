@@ -22,24 +22,27 @@ function SignIn() {
         link5 = "/contact-us" />
 
         {/* From here Form starts */}
-        <div className="box">
 
-            <h1>SHOW MY FOLIO</h1>
-            <Form method="" action="">
 
-                <div className="input-box">
-                    <input type="text" name="username" autoComplete="off" required />
-                    <label> Username </label>
-                </div>
+        <div className="main-div">
+            <div className="box">
+                <h1>SHOW MY FOLIO</h1>
+                <Form method="" action="">
 
-                <div className="input-box">
-                    <input type="password" name="password" autoComplete="off" required />
-                    <label> Password </label>
-                </div>
+                    <div className="input-box">
+                        <input type="text" name="username" autoComplete="off" required />
+                        <label> Username </label>
+                    </div>
 
-                <input type="submit" name="" value="Log In"/>
+                    <div className="input-box">
+                        <input type="password" name="password" autoComplete="off" required />
+                        <label> Password </label>
+                    </div>
 
-            </Form>
+                    <input type="submit" name="" value="Log In"/>
+
+                </Form>
+            </div>
         </div>
         
         </>

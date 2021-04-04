@@ -1,9 +1,11 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import "../component-Styles/SignIn.css";
 
 function SignIn() {
     return(
         <>
-        <h1>This is Sign in </h1>
+        
         </>
     );
 }

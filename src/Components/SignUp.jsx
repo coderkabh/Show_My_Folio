@@ -51,7 +51,7 @@ function SignUp() {
                     </div>
                 
 
-                    <input type="submit" name="" value="Log In"/>
+                    <input type="submit" id="log-in" name="" value="Log In"/>
 
                 </Form>
             </div>

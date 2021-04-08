@@ -30,13 +30,13 @@ function SignIn() {
                 <Form method="" action="">
 
                     <div className="input-box">
-                        <input type="text" name="username" autoComplete="off" required />
-                        <label> Username </label>
+                        <input type="text" name="username" id="username" autoComplete="off" required />
+                        <label for="username"> Username </label>
                     </div>
 
                     <div className="input-box">
-                        <input type="password" name="password" autoComplete="off" required />
-                        <label> Password </label>
+                        <input type="password" name="password" id="pswd" autoComplete="off" required />
+                        <label for="pswd"> Password </label>
                     </div>
 
                     <input type="submit" name="" value="Log In"/>

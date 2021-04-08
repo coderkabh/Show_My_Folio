@@ -30,24 +30,24 @@ function SignUp() {
                 <Form method="" action="">
 
                     <div className="input-box">
-                        <input type="text" name="fname" autoComplete="off" required />
-                        <label> First Name </label>
+                        <input type="text" name="fname" id="fname" autoComplete="off" required />
+                        <label for="fname"> First Name </label>
                     </div>
 
                     <div className="input-box">
-                        <input type="text" name="lname" autoComplete="off" required />
-                        <label> Last Name </label>
+                        <input type="text" name="lname" id="lname" autoComplete="off" required />
+                        <label for="lname"> Last Name </label>
                     </div>
 
                     <div className="input-box">
-                        <input type="text" name="email" autoComplete="off" required />
-                        <label> Email </label>
+                        <input type="text" name="email" id="email" autoComplete="off" required />
+                        <label for="email"> Email </label>
                     </div>
 
 
                     <div className="input-box">
-                        <input type="password" name="password" autoComplete="off" required />
-                        <label> Password </label>
+                        <input type="password" name="password" id="pswd" autoComplete="off" required />
+                        <label for="pswd"> Password </label>
                     </div>
                 
 

@@ -28,8 +28,7 @@ class SignUp extends Component {
         password:this.state.password,
         phoneNumber:this.state.phoneNumber
     })
-};
-    
+}
 
   render() {
     return (

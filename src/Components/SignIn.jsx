@@ -1,33 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 //eslint-disable-next-line
 import ReactDOM from 'react-dom';
 import "../component-Styles/SignIn.css";
 import HeaderIndex from './HeaderIndex';
 import pic from '../assets/portfolio.jpg';
 import { Form } from 'react-bootstrap';
-import axios from 'axios';
 
-
-class SignIn extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-        username:"",
-        password:"" 
-    };
-  }
-
-  login=()=>{
-    axios.post('http://localhost:3000/sign-in',{
-        username:this.state.username,
-        password:this.state.password
-    })
-};
-    
-
-  render() {
-    return (
-      <div>
+function SignIn() {
+    return(
+        <>
         <HeaderIndex 
         logo = {pic}
         option1="Home" 
@@ -43,35 +24,30 @@ class SignIn extends Component {
 
         {/* From here Form starts */}
 
+
         <div className="main-div">
             <div className="box">
                 <h1>SHOW MY FOLIO</h1>
-                <Form method="POST" action="/sign-in">
+                <Form method="" action="">
 
                     <div className="input-box">
-                        <input type="text" name="username" value={this.state.username} id="username" autoComplete="off" required  onChange={e=>{this.setState({
-                            username:e.target.value
-                        })}} />
+                        <input type="text" name="username" id="username" autoComplete="off" required />
                         <label for="username"> Username </label>
                     </div>
 
                     <div className="input-box">
-                        <input type="password" name="password" value={this.state.password} id="pswd" autoComplete="off" required onChange={e=>{this.setState({
-                            password:e.target.value
-                        })}} />
+                        <input type="password" name="password" id="pswd" autoComplete="off" required />
                         <label for="pswd"> Password </label>
                     </div>
 
-                    <input type="submit" id="log-in" name="" value="Login" onClick={this.login} />
+                    <input type="submit" id="log-in" name="" value="Log In"/>
 
                 </Form>
             </div>
         </div>
         
-      </div>
+        </>
     );
-  }
 }
 
 export default SignIn;
-

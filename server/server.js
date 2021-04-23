@@ -19,31 +19,5 @@ app.post('/sign-up',(req,res)=>{
     })
 
     res.send("<h1>Thanks for Signing up</h1>");
-});
-
-app.post('/sign-in',(req,res)=>{
-    const email = req.body.username;
-    const password = req.body.password;
-    const ADD_QUERY ="Select * from broker where email = ? and password = ?"
-    // connection.query(ADD_QUERY,[email,password],(err)=>{
-    //     if(err) console.log(err);
-    // })
-    // connection.query(ADD_QUERY,[email, password],(err, result)=>{
-    //     if(err) {
-    //         res.end({err:err});
-    //     }
-    //     if(result){
-    //         res.send(result);
-    //     }else{
-    //         res.send({message:"Wrong User name / password combination !"})
-    //     }
-    // })
-    connection.query(ADD_QUERY,[email,password],(err)=>{
-        if(err){
-            console.log(err);
-        }else{
-            res.send("Thanks for logging in!!");
-        }
-    })   
-});
+})
 app.listen(3000);

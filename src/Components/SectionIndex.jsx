@@ -1,4 +1,5 @@
 import React from 'react';
+//eslint-disable-next-line
 import  pic from "../assets/indexBackground.jpg";
 import "../component-Styles/Section.css";
 

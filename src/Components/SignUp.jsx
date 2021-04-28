@@ -91,6 +91,7 @@ class SignUp extends Component {
                 
 
                     <input type="submit" id="sign-up" name="" value="Sign-Up" onClick={this.submitUser} />
+                    
 
                 </Form>
             </div>

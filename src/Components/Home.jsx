@@ -2,6 +2,7 @@ import React from "react";
 import HeaderIndex from './HeaderIndex';
 import pic from '../assets/portfolio.jpg';
 import SectionIndex from './SectionIndex';
+import Footer from './Footer';
 
 function Home(){
     return(
@@ -19,6 +20,7 @@ function Home(){
         option5="Contact Us"
         link5 = "/contact-us" />
         <SectionIndex/>
+        <Footer/>
         </>
         
     );

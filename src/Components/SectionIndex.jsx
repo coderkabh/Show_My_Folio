@@ -27,7 +27,7 @@ import '../component-Styles/Section.css';
 function SectionIndex() {
     return (
         <div className="section">
-            <img className="section__image" src={pic}></img>
+            <img className="section__image" src={pic} alt="sectionImg"></img>
         </div>
     )
 }

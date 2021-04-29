@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.json());
 
-app.get('/',(req,res)=>{
+app.get('*',(req,res)=>{
     res.sendFile(path.join(__dirname,'build','index.html'));
 
 });
@@ -22,25 +22,6 @@ app.post('/sign-up',(req,res)=>{
 });
 
 
-
-// app.post('/sign-in', (req, res)=> {
-// 	var email = req.body.email;
-// 	var password = req.body.password;
-// 	if (email && password) {
-// 		connection.query('SELECT * FROM broker WHERE Email = ? AND password = ?', [email, password], (err, result) =>{
-// 			if (result.length > 0) {
-// 				res.redirect('/');
-				
-// 			} else {
-// 				res.send('Incorrect Username and/or Password!');
-// 			}			
-// 			res.end();
-// 		});
-// 	} else {
-// 		res.send('Please enter Username and Password!');
-// 		res.end();
-// 	}
-// });
 
 app.post('/sign-in', (req, res)=> {
 	var email = req.body.email;

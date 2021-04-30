@@ -51,6 +51,7 @@
   background-color: rgb(255, 255, 255, 0.8);
   border-radius: 9px;
   padding: 2px;
+  /* word-spacing: normal; */
 }
 
 .carouselInner p {
@@ -58,4 +59,5 @@
   background-color: rgb(255, 255, 255, 0.8);
   border-radius: 9px;
   padding: 2px;
+  /* word-spacing: normal; */
 }

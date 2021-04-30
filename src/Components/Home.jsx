@@ -3,6 +3,7 @@ import HeaderIndex from './HeaderIndex';
 import pic from '../assets/portfolio.jpg';
 import SectionIndex from './SectionIndex';
 import Footer from './Footer';
+import Carousel from './Carousel';
 
 function Home(){
     return(
@@ -20,6 +21,7 @@ function Home(){
         option5="Contact Us"
         link5 = "/contact-us" />
         <SectionIndex/>
+        <Carousel/>
         <Footer/>
         </>
         

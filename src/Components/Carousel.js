@@ -3,15 +3,17 @@ import '../component-Styles/Carousel.css';
 import pic from '../assets/yogendra.jpg';
 import pic1 from '../assets/sonnie-hiles-unsplash.jpg';
 import pic2 from '../assets/rahabi-khan-c_unsplash.jpg';
+import pic3 from '../assets/shubham-patel-unsplash.jpg';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 
 function Carousel() {
-    const [currImg, setCurrImg] = useState(0);
-    const images =[
-        {title:"Yogendra", subtitle:"Model and artist", img:pic},
+    const [currImg, setCurrImg] = useState(1);
+    const images =[   
         {title:"Sonnie Hiils", subtitle:"I am an adventurer", img:pic1},
-        {title:"Rahabi Khan", subtitle:"I am a photographer", img:pic2},
+        {title:"Rahabi Khan", subtitle:"Model and artist", img:pic2},
+        {title:"Shubhangi Verma", subtitle:"I am a photoshoot artist" , img:pic3},
+        {title:"Yogendra Shrivastav", subtitle:"I am a photographer", img:pic},
     ];
     return (
         <div className="carousel" >
@@ -20,7 +22,10 @@ function Carousel() {
                 <div className="left" onClick={()=>currImg > 0 && setCurrImg(currImg - 1)}>
                     <ArrowBackIosIcon style={{fontSize : 30}}/>
                 </div>
-                <div className="center"></div>
+                <div className="center">
+                    <h1 style={{color:'white'}}>{images[currImg].title}</h1>
+                    <p style={{color:'white'}}>{images[currImg].subtitle}</p>
+                </div>
                 <div className="right" onClick={()=>currImg < images.length-1 && setCurrImg(currImg + 1)} >
                     <ArrowForwardIosIcon style={{fontSize : 30}}/>
                 </div>

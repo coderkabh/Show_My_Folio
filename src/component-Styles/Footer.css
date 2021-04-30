@@ -17,10 +17,12 @@
   flex-direction: column;
   align-items: center;
 }
-.fooer-bottom {
+.footer-bottom {
   align-items: center;
 }
 .copyright {
   align-items: center;
   justify-content: center;
+  text-align: center;
+  padding-top: 20px;
 }

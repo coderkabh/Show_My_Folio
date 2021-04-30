@@ -6,6 +6,7 @@ import pic2 from '../assets/rahabi-khan-c_unsplash.jpg';
 import pic3 from '../assets/shubham-patel-unsplash.jpg';
 import pic4 from '../assets/lee-luis-unsplash.jpg';
 import pic5 from '../assets/nicole-geri-unsplash.jpg';
+import pic6 from '../assets/valerie-elash-unsplash.jpg';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 
@@ -18,7 +19,7 @@ function Carousel() {
         {title:"Yogendra Shrivastav", subtitle:"Costume designer", img:pic},
         {title:"Lee Luis", subtitle:"Interior Designer", img:pic4},
         {title:"Nicole Geri", subtitle:"Fashion Designer", img:pic5},
-        
+        {title:"Valerie Elash", subtitle:"Makeup artist and Blogger", img:pic6}
     ];
     return (
         <div className="carousel" >

@@ -1,6 +1,7 @@
 import React from "react";
 import HeaderIndex from './HeaderIndex';
 import pic from '../assets/portfolio.jpg';
+//eslint-disable-next-line
 import SectionIndex from './SectionIndex';
 import Footer from './Footer';
 import Carousel from './Carousel';
@@ -20,8 +21,9 @@ function Home(){
         link4 = "/sign-up" 
         option5="Contact Us"
         link5 = "/contact-us" />
-        <SectionIndex/>
+        
         <Carousel/>
+        
         <Footer/>
         </>
         

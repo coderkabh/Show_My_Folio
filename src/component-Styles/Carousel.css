@@ -1,6 +1,7 @@
-.carousel {
+/* .carousel {
   width: 60%;
   height: 700px;
+
   margin-left: auto;
   margin-right: auto;
   background-color: black;
@@ -49,6 +50,67 @@
   border-radius: 9px;
   padding: 2px;
 }
+.carouselInner p {
+  font-size: 2rem;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 9px;
+  padding: 2px;
+} */
+
+.carousel {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  /* margin-top: 20px; */
+}
+.carouselInner {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  /* padding: 50px 0 0 50px; */
+}
+
+.carouselInner .left {
+  flex: 5%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.6);
+  display: grid;
+  place-items: center;
+  color: white;
+  cursor: pointer;
+}
+.carouselInner .center {
+  flex: 80%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-align: justify;
+}
+.carouselInner .right {
+  flex: 5%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.6);
+  display: grid;
+  place-items: center;
+  color: white;
+  cursor: pointer;
+}
+.carouselInner h1 {
+  font-size: 5rem;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 9px;
+  padding: 2px;
+}
+
 .carouselInner p {
   font-size: 2rem;
   background-color: rgb(255, 255, 255, 0.8);

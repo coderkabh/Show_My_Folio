@@ -4,6 +4,7 @@ import pic from '../assets/yogendra.jpg';
 import pic1 from '../assets/sonnie-hiles-unsplash.jpg';
 import pic2 from '../assets/rahabi-khan-c_unsplash.jpg';
 import pic3 from '../assets/shubham-patel-unsplash.jpg';
+import pic4 from '../assets/lee-luis-unsplash.jpg';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 
@@ -12,8 +13,10 @@ function Carousel() {
     const images =[   
         {title:"Sonnie Hiils", subtitle:"I am an adventurer", img:pic1},
         {title:"Rahabi Khan", subtitle:"Model and artist", img:pic2},
-        {title:"Shubhangi Verma", subtitle:"I am a photoshoot artist" , img:pic3},
-        {title:"Yogendra Shrivastav", subtitle:"I am a photographer", img:pic},
+        {title:"Shubhangi Verma", subtitle:"Photoshoot artist" , img:pic3},
+        {title:"Yogendra Shrivastav", subtitle:"Costume designer", img:pic},
+        {title:"Lee Luis", subtitle:"Interior Designer", img:pic4},
+        
     ];
     return (
         <div className="carousel" >
@@ -35,4 +38,3 @@ function Carousel() {
 }
 
 export default Carousel
-

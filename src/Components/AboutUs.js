@@ -1,12 +1,27 @@
 import React from 'react'
 import '../component-Styles/AboutUs.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from '@material-ui/core';
+import pic from '../assets/portfolio.jpg';
+import {NavLink} from 'react-router-dom';
 
 
 
 function AboutUs() {
     return (
         <div className="about-us">
+            <ul id="unordered">
+                <li id="logo">
+                <Link to="/">
+                <img src={pic} alt="logo-pic"/>
+                </Link>
+                </li>
+                <li class="item"><NavLink to="/">Home</NavLink></li>
+                <li class="item"><NavLink to="/about-us">About us</NavLink></li>
+                <li class="item"><NavLink to="/sign-in">Log in</NavLink></li>
+                <li class="item"><NavLink to="sign-up">Sign Up</NavLink></li>
+                <li class="item"><NavLink to="/contact-us">Contact Us</NavLink></li>
+            </ul>
             <div className="container-fluid">
                 <div className="row header">
                     <h1>Show My Folio </h1>

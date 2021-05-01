@@ -6,6 +6,7 @@ import SignUp from './Components/SignUp';
 import AboutUs from "./Components/AboutUs";
 import Footer from './Components/Footer';
 
+
 function App() {
   return (
     <>

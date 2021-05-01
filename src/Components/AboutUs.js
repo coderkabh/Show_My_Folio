@@ -3,6 +3,7 @@ import '../component-Styles/AboutUs.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+
 function AboutUs() {
     return (
         <div className="about-us">
@@ -10,12 +11,12 @@ function AboutUs() {
                 <div className="row header">
                     <h1>Show My Folio </h1>
                     <p>
-                        It is a website which creates a portfolio for you.It is made by a group of college 
-                        students from GLA University under the mentorship of our beloved Sir,
-                        <span>Late Mr Anand Prakash Gupta</span> 
+                        IT IS A WEBSITE WHICH CREATES A PORTFOLIO FOR YOU.IT IS MADE BY A GROUP OF COLLEGE 
+                        STUDENTS FROM GLA UNIVERSITY UNDER THE MENTORSHIP OF OUR BELOVED SIR, &nbsp;
+                        <strong>LATE MR. ANAND PRAKASH GUPTA</strong> 
                     </p>
                 </div>
-                <div className="row header2">
+                {/* <div className="row header2">
                     <div className="col-sm-7 col-12">
                         <h3>Your Portfolio, our responsibilty</h3>
                         <p>We are here to be your companion throughout your journey of creating a portfolio</p>
@@ -28,7 +29,8 @@ function AboutUs() {
                         in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
                         publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                     </div>
-                </div>
+                </div> */}
+
             </div>
         </div>
     )

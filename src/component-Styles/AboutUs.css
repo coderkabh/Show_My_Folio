@@ -1,8 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@800&family=Montserrat:wght@500&display=swap");
+
 .container-fluid {
   height: 100vh;
   width: 100%;
   /* margin: 0; */
   padding: 0;
+  max-width: 1500px;
+  background-image: url("../assets/sigmund-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  /* flex-direction: column; */
 }
 .row {
   width: 100%;
@@ -10,18 +19,25 @@
 }
 .header {
   padding-top: 50px;
-  background-color: #00adb5;
+  /* background-color: #00adb5; */
   height: 300px;
   padding-left: 30px;
 }
 .header h1 {
-  font-family: "Montserrat-Black", sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.5;
   color: floralwhite;
-  font-weight: bolder;
+  font-weight: 800;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+.header p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: large;
+  color: white;
+  justify-content: space-between;
+  word-spacing: 6px;
 }
 .header2 {
   padding-top: 50px;
   padding-left: 10px;
+  /* color: white; */
 }

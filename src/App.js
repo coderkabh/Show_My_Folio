@@ -5,7 +5,7 @@ import { Route, Switch } from "react-router-dom";
 import SignUp from './Components/SignUp';
 import AboutUs from "./Components/AboutUs";
 import Footer from './Components/Footer';
-
+import Profile from "./Components/Profile";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
           <AboutUs/>
           <Footer/>
       </Route>
+    <Route exact path="/Profile" component={Profile}/>
     </Switch>
     </>
   );

@@ -1,6 +1,7 @@
 import React from 'react'
 import HeaderIndex from './HeaderIndex';
 import pic from '../assets/portfolio.jpg';
+import Footer from './Footer';
 
 function Profile() {
     return (
@@ -17,6 +18,11 @@ function Profile() {
         link4 = "/settings" 
         option5="Logout"
         link5 = "/"/>
+        
+        <div className="background">
+            
+        </div>
+<Footer/>
         </>
     )
 }

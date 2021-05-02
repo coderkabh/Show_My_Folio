@@ -48,9 +48,10 @@
 }
 .carouselInner h1 {
   font-size: 5rem;
-  background-color: rgb(255, 255, 255, 0.8);
-  border-radius: 9px;
-  padding: 2px;
+  background-color: rgba(171, 206, 247, 0.8);
+  border-radius: 15px;
+  padding: 5px;
+  margin-top: 40%;
   /* word-spacing: normal; */
 }
 

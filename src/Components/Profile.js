@@ -19,11 +19,13 @@ function Profile() {
         link4 = "/settings" 
         option5="Logout"
         link5 = "/"/>
-    
+
         <div className="background">
-            <h1 className="text">Welcome to Profile</h1>
+            <div className="inner">
+                <h1 className="text">Welcome to Profile</h1>
+                
+            </div>
         </div>
-        
 <Footer/>
         </>
     )

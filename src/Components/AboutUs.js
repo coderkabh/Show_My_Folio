@@ -28,7 +28,7 @@ function AboutUs() {
                     <p>
                         IT IS A WEBSITE WHICH CREATES A PORTFOLIO FOR YOU.IT IS MADE BY A GROUP OF COLLEGE 
                         STUDENTS FROM GLA UNIVERSITY UNDER THE MENTORSHIP OF OUR BELOVED SIR, &nbsp;
-                        <strong>LATE MR. ANAND PRAKASH GUPTA</strong> 
+                        <strong>LATE MR. ANAND PARKASH GUPTA</strong> 
                     </p>
                 </div>
                 {/* <div className="row header2">

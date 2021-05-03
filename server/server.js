@@ -28,7 +28,7 @@ app.post('/sign-in', (req, res)=> {
 	var password = req.body.password;
 		connection.query('SELECT * FROM broker WHERE Email = ? AND password = ?', [email, password], (err,result) =>{
 			if(result){
-				res.redirect('/');
+				res.redirect('/profile');
 			}else{
 				res.send("Incorrect username and password");
 			}

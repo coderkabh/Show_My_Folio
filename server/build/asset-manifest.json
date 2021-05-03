@@ -1,22 +1,33 @@
 {
   "files": {
-    "main.css": "./static/css/main.e6d8b965.chunk.css",
-    "main.js": "./static/js/main.8a137f88.chunk.js",
-    "main.js.map": "./static/js/main.8a137f88.chunk.js.map",
+    "main.css": "./static/css/main.690984b6.chunk.css",
+    "main.js": "./static/js/main.55571a03.chunk.js",
+    "main.js.map": "./static/js/main.55571a03.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.6ee2774f.js",
     "runtime-main.js.map": "./static/js/runtime-main.6ee2774f.js.map",
-    "static/js/2.45a1a0a2.chunk.js": "./static/js/2.45a1a0a2.chunk.js",
-    "static/js/2.45a1a0a2.chunk.js.map": "./static/js/2.45a1a0a2.chunk.js.map",
+    "static/css/2.fabbef47.chunk.css": "./static/css/2.fabbef47.chunk.css",
+    "static/js/2.53b7f0f9.chunk.js": "./static/js/2.53b7f0f9.chunk.js",
+    "static/js/2.53b7f0f9.chunk.js.map": "./static/js/2.53b7f0f9.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.e6d8b965.chunk.css.map": "./static/css/main.e6d8b965.chunk.css.map",
-    "static/js/2.45a1a0a2.chunk.js.LICENSE.txt": "./static/js/2.45a1a0a2.chunk.js.LICENSE.txt",
+    "static/css/2.fabbef47.chunk.css.map": "./static/css/2.fabbef47.chunk.css.map",
+    "static/css/main.690984b6.chunk.css.map": "./static/css/main.690984b6.chunk.css.map",
+    "static/js/2.53b7f0f9.chunk.js.LICENSE.txt": "./static/js/2.53b7f0f9.chunk.js.LICENSE.txt",
     "static/media/ekaterina.353d871a.jpg": "./static/media/ekaterina.353d871a.jpg",
-    "static/media/portfolio.816c05c6.jpg": "./static/media/portfolio.816c05c6.jpg"
+    "static/media/lee-luis-unsplash.55ff893f.jpg": "./static/media/lee-luis-unsplash.55ff893f.jpg",
+    "static/media/nicole-geri-unsplash.d58763cf.jpg": "./static/media/nicole-geri-unsplash.d58763cf.jpg",
+    "static/media/portfolio.816c05c6.jpg": "./static/media/portfolio.816c05c6.jpg",
+    "static/media/rahabi-khan-c_unsplash.d74af4d5.jpg": "./static/media/rahabi-khan-c_unsplash.d74af4d5.jpg",
+    "static/media/shubham-patel-unsplash.e8bdd682.jpg": "./static/media/shubham-patel-unsplash.e8bdd682.jpg",
+    "static/media/AboutUs.css": "./static/media/sigmund-unsplash.2832ae56.jpg",
+    "static/media/sonnie-hiles-unsplash.94a38d42.jpg": "./static/media/sonnie-hiles-unsplash.94a38d42.jpg",
+    "static/media/valerie-elash-unsplash.dfc74b3b.jpg": "./static/media/valerie-elash-unsplash.dfc74b3b.jpg",
+    "static/media/yogendra.9845a758.jpg": "./static/media/yogendra.9845a758.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6ee2774f.js",
-    "static/js/2.45a1a0a2.chunk.js",
-    "static/css/main.e6d8b965.chunk.css",
-    "static/js/main.8a137f88.chunk.js"
+    "static/css/2.fabbef47.chunk.css",
+    "static/js/2.53b7f0f9.chunk.js",
+    "static/css/main.690984b6.chunk.css",
+    "static/js/main.55571a03.chunk.js"
   ]
 }
